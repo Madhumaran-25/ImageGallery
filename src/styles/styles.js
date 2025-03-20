@@ -4,9 +4,12 @@ import { heightPercentageToDP, widthPercentageToDP } from 'react-native-responsi
 const styles = StyleSheet.create({
   container:{
     flex: 1, 
-    padding: widthPercentageToDP('2%'), 
+    padding: widthPercentageToDP('3%'), 
     backgroundColor: '#f8f9fa',
     marginTop: heightPercentageToDP('1%'),
+  },
+  safeAreaContainer:{
+    flex:1,
   },
   header: {
     fontSize: 30,
@@ -59,6 +62,14 @@ const styles = StyleSheet.create({
     width: '100%',
     height: heightPercentageToDP('40%'),
     borderRadius: 10
+  },
+  loaderContainer:{
+    ...StyleSheet.absoluteFillObject,
+    justifyContent:'center',
+    alignItems:'center',
+  },
+  loader: {
+    zIndex: 999
   },
   infoButton: {
     backgroundColor: '#28a745',

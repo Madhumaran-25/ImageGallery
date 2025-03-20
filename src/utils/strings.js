@@ -7,7 +7,7 @@ export const strings = {
     MainScreen: "Gallery",
     Placeholder: "Enter Image ID",
     keyboardType: "numeric",
-    size: "small",
+    size: "large",
     searchicon : "search",
     back: "chevron-back",
     infoIcon: "information-circle-outline",
