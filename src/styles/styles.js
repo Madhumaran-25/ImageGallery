@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: heightPercentageToDP('2%'),
     margin: heightPercentageToDP('1%'),
+    marginTop: heightPercentageToDP('2%'),
     color:'#000'
   },
   headerSearch:{
