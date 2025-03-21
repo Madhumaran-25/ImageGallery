@@ -99,8 +99,7 @@ const GalleryScreen = () => {
         Purpose: Displays a loading indicator while images are being fetched.
       */}
 
-        {loading ||
-          (modalLoading && (
+        {loading || modalLoading && (
             <View style={styles.loaderContainer}>
               <ActivityIndicator
                 size={strings.size}
@@ -108,7 +107,7 @@ const GalleryScreen = () => {
                 style={styles.loader}
               />
             </View>
-          ))}
+          )}
         {/* 
           Section: Image List 
           Purpose: Displays the list of images using FlatList.
